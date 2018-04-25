@@ -39,6 +39,7 @@ User manual
    :maxdepth: 2
 
    user-manual/project-publishing
+   user-manual/time-support
    user-manual/user-interface
    user-manual/datasets
 
