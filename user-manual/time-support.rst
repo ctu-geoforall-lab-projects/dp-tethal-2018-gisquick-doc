@@ -19,27 +19,27 @@ Publication process
 ---------------------
 
 There is small setings in the first page of the wizard in order to keep 
-publication process simple and easy to handle for any user. In the 
-first page of the wizard in the tab ``Layers`` time layer may be set.
+publication process simple and easy to handle for any user. Time layer 
+may be set up in the first page of the wizard in the tab ``Layers`` .
 Dropdown menu **Time Attribute** defines which layer attribute contains
 time values. In case this column is left blanc layer won't be listed in 
 the time filter tool. Second option is **Date Mask**. Time values may 
 have different formats in different countries. No matter how original 
-time format looks like, mate mask offers a posibility to customize 
+time format looks like, date mask offers a posibility to customize 
 displayed date format in Gisquick client.
 
 .. figure:: ../img/project-publishing-time-layers.png
 
    Time layers options in publication wizard
 
-.. important:: |imp| Be sure you know how your data looks like. 
+.. important:: |imp| Every user should know how the data looks like. 
    **Date Mask** changes user interface of the time filtering tool. 
    E. g. if `'HH:mm'` mask is selected datepicker wont be displayed 
    in the client side, only timepicker. 
 
 The **configuration summary** wizard page displays all the parameters 
 that were computed for each time layer. Note that if the 
-**Time Attribute** field was left blank, parameters doesn't have any 
+**Time Attribute** field was left blank, parameters will not have any 
 vaule.
 
 .. figure:: ../img/project-publishing-time-summary.png
@@ -66,10 +66,10 @@ It might happen that two time layers with different time extend are
 visible in the same time. E. g. one layer displaying map features 
 over one hour and second over one year. Filtering this two layers 
 together using one time slider would ignore layer with shorter time 
-extend. That is why only time layers with same time attribute may be 
-displayed in the same time. In case `All visible layers` contains 
-different time attribute. User have to specify one in displayed 
-dropdown menu.
+extend. That is the reason why only time layers with same time 
+attribute may be displayed in the same time. In case `All visible 
+layers` contains different time attribute. User have to specify one 
+in displayed dropdown menu.
 
 .. figure:: ../img/time-attribute-dropdown.png
 
@@ -113,7 +113,7 @@ contains time and date than labels allow user to choose time in
 date and time pickers. In case that time format contains only 
 date than time can not be more precise than one day. Time and date 
 selection in displayed datetime picker has to be confirmed by 
-`OK` button. Map canvas is updated after this confirmation.
+`'OK'` button. Map canvas is updated after this confirmation.
 
 .. figure:: ../img/date-time-picker.png
 
@@ -121,12 +121,12 @@ selection in displayed datetime picker has to be confirmed by
 
 Simple animation may be made using **Animation button**. When 
 button is pressed upper value of range slider is being increased 
-by its step every second. When slider is changed map canvas is 
-updated. Once upper value reach slider maximum the lower value is 
-increased in same pattern. Animation is ended when there is just 
-one slider step difference between upper and lower value. Second 
-way how to stop animation may be click on `STOP` button. It 
-appeares when animation is on.
+by its step every second. Every time slider is changed map canvas 
+is updated. Once upper value reach slider maximum the lower value 
+is increased in same pattern. Animation is end when difference 
+between upper and lower value is just one  step. Second  way how 
+to stop animation may be click on `STOP` button. It appeares only 
+when animation is on.
 
 .. figure:: ../img/time-animation-stop.png
 
