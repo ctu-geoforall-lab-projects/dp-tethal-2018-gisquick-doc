@@ -343,3 +343,4 @@ uploaded in ``zip`` or ``tag.gz`` formats.
    
 Another two menu items allows showing help page (this documenation)
 and log out the user.
+
